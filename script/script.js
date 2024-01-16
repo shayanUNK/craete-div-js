@@ -8,26 +8,41 @@ E-mail: unkshayan@gmail.com
 Github: shayanUNK
 */
 
+// create a div element
 let container = document.createElement('div');
+// giving class to the div element
 container.setAttribute("class", "container");
 
+// create a div element
 let items1 = document.createElement('div');
+// giving class to the div element
 items1.setAttribute("class", "items")
 
+// create a div element
 let rectangle = document.createElement('div');
-rectangle.setAttribute("class", "rectangel");
+// giving class to the div element
+rectangle.setAttribute("class", "rectangle");
+
+// create a div element
 let square = document.createElement('div');
+// giving class to the div element
 square.setAttribute("class", "square");
 
-items1.appendChild(rectangle);
+// create a div element
+let test = items1.appendChild(rectangle);
+console.log(test);
+// giving class to the div element
 items1.appendChild(square);
 
+// create a div element
 let items2 = document.createElement('div');
+// giving class to the div element
 items2.setAttribute("class", "items");
 
+// create sxx div element to prevent additional code
 for (let i = 0; i < 6; i++) {
     let littleItem = document.createElement('div');
-    littleItem.className = 'little-item';
+    littleItem.setAttribute("class", "little-item");
     items2.appendChild(littleItem);
 }
 

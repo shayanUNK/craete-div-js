@@ -35,7 +35,7 @@ body {
 .items:nth-child(1) div{
     background-color: rgb(110, 110, 241);
 }
-.rectangel{
+.rectangle{
     width: 300px;
     height: 100px;
     margin-bottom: 40px;
